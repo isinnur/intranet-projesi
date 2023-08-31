@@ -3,7 +3,7 @@ require 'login.kontrol.php';
 require 'sayfa.ust.php';
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-  $hedefKlasor = "../FORMLAR/";
+  $hedefKlasor = "FORMLAR/";
   $desteklenenTipler = ["pdf", "doc", "docx", "xls", "xlsx"];
 
   $dosya = $_FILES["dosya"];

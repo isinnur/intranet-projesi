@@ -2,7 +2,7 @@
 require 'login.kontrol.php';
 require 'sayfa.ust.php';
 
-$hedefKlasor = "../FORMLAR/";
+$hedefKlasor = "FORMLAR/";
 
 // Klasördeki dosyaları al
 $dosyalar = scandir($hedefKlasor);
