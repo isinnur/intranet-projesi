@@ -26,5 +26,8 @@ require 'sayfa.ust.php';
 <div class='row text-center'>
   <p><a href='duyuru.liste.php' class="btn btn-primary"> Duyurular </a></p>
 </div>
+<div class='row text-center'>
+  <p><a href='rehber.php' class="btn btn-primary"> Telefon Rehberi </a></p>
+</div>
 
 <?php require_once 'sayfa.alt.php'; ?>
