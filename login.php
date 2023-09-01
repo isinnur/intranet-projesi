@@ -33,6 +33,8 @@ if (isset($_POST['eposta_form'])) {
     $_SESSION['adsoyad'] = $CEVAP[0]['adsoyad']; // Kullanıcının adını alalım
     $_SESSION['id'] = $CEVAP[0]['id']; // Kullanıcının ID'sini alalım
     $_SESSION['rol'] = $CEVAP[0]['rol']; // Kullanıcının ROL'ünü alalım
+
+    TelegramdanMesajGonder(" {$_SESSION['adsoyad']} adlı kullanıcı sisteme giriş oldu");
     header("location: index.php");
     die();
   } else {
